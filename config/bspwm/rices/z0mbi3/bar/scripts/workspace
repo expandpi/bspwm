@@ -26,7 +26,7 @@ print_workspaces() {
             class="workspace-occupied"
         else 
             ws="$d"
-            icon="󰑊"
+            icon=""
             class="workspace-empty"
         fi  
 

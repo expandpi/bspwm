@@ -157,7 +157,7 @@ function SetGirlFriendRice() {
 		  
 		z0mbi3)
 		
-		  SetBspwmConf 0 5 5 "#161616" "#161616" "#161616" "#4f4f5b" 85 5
+		  SetBspwmConf 0 5 5 "#161616" "#161616" "#161616" "#4f4f5b" 55 5
 		  
 		  # Kill any running instances of bspc to prevent multiple
 		  # instances of "workspaces" script in eww rices to run at once
@@ -208,8 +208,8 @@ function AutoStartApps() {
 	launch sxhkd -c ${bspdir}/sxhkdrc &
 	launch picom --config ${bspdir}/rices/$RICETHEME/picom.conf &
 	launch /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-	WallChanger
+#	WallChanger
 	#nitrogen --restore &
 	xsetroot -cursor_name left_ptr
-	
+	feh --bg-fill /home/infinitty/Pictures/anime-girl-mask-glowing-eyes-wallpaper-1920x1080_48.jpg	
 }

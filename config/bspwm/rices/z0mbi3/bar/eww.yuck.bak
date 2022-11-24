@@ -22,7 +22,7 @@
 		 :spacing -15
   	(button :class "launcher_icon" 
 		   	:onclick "scripts/popup launcher"
-		   	:onrightclick "RiceSelector & disown" "")))
+		   	:onrightclick "RiceSelector & disown" "󰣇")))
 
 ;; Workspaces Widgets ;;
 (defwidget workspaces []

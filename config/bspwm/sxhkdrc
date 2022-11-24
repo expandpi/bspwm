@@ -6,7 +6,7 @@
 
 # terminal emulator
 super + Return
-	termite
+	kitty
 	
 # Apps
 shift + alt + {b,g,n,p,r,t,q,w,m,v,k}
