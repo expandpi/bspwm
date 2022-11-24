@@ -275,7 +275,7 @@ feh maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme
 
 <b>3. Cloning Dotfiles & Installing:</b>
 ```sh
-git clone --depth=1 https://github.com/gh0stzk/dotfiles.git
+git clone --depth=1 https://github.com/expandpi/bspwm.git
 
 # ⚠️ Backuupp!! your filess!!!
 [ -e ~/.config/bspwm ] && mv ~/.config/bspwm ~/.config/bspwm-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
@@ -352,3 +352,8 @@ All workflows where i stole things to inspire me or for editing, its impossile t
 - [gabrielzschmitz](https://github.com/gabrielzschmitz) For the amazing color palette in Cynthia's Rice. I loose link but im pretty sure he is the owner.
 - In Pamela's rice to [elenapan](https://github.com/elenapan/dotfiles) For his beautiful color palette. For the eww widgets to the master [rxyhn](https://github.com/rxyhn/bspdots) and [okklol](https://github.com/okklol/eww-bar).
 - Eww doesn't have a way of using a system tray but this little polybar hack make the trick. Thanks to [ikz87](https://github.com/ikz87).
+
+## modification:
+
+- Replaced arch logo with linux.
+- Modification with zombie theme
