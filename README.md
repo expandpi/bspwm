@@ -14,7 +14,6 @@ https://user-images.githubusercontent.com/67278339/179444283-d5a4bc48-a9c7-4a91-
 |Bar|[Polybar](https://github.com/polybar/polybar)|
 |Menu|[Rofi](https://github.com/davatorium/rofi)|
 |Compositor|[Picom Arian8j2](https://github.com/Arian8j2/picom)|
-|Terminal|[Termite](https://aur.archlinux.org/termite.git)|
 |Widgets|[ElKowars wacky widgets ](https://github.com/elkowar/eww)|
 
 ## 📖 Features
@@ -267,7 +266,7 @@ A one time command to install most of these dependencies with your **favorite AU
 
 ```sh
 yay -S bspwm polybar sxhkd eww dunst rofi lsd jq checkupdates-aur \
-playerctl mpd ncmpcpp mpc picom-arian8j2-git xtitle termite betterlockscreen \
+playerctl mpd ncmpcpp mpc picom-arian8j2-git xtitle  betterlockscreen \
 ttf-jetbrains-mono nerd-fonts-jetbrains-mono ttf-terminus-nerd ttf-inconsolata \
 ttf-joypixels nerd-fonts-cozette-ttf scientifica-font \
 feh maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme
@@ -279,12 +278,10 @@ git clone --depth=1 https://github.com/expandpi/bspwm.git
 
 # ⚠️ Backuupp!! your filess!!!
 [ -e ~/.config/bspwm ] && mv ~/.config/bspwm ~/.config/bspwm-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
-[ -e ~/.config/termite ] && mv ~/.config/termite ~/.config/termite-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
 
 # Moving new files to .config
 cd dotfiles
 cp -r config/bspwm ~/.config/bspwm
-cp -r config/termite ~/.config/termite
 # Those were the important ones. You still need to move the remaining directories in config to your ~/.config directory.
 
 # Move Fonts and the other stuff
@@ -357,3 +354,4 @@ All workflows where i stole things to inspire me or for editing, its impossile t
 
 - Replaced arch logo with linux.
 - Modification with zombie theme
+- Removed termite and added alacritty
