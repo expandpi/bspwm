@@ -208,8 +208,8 @@ function AutoStartApps() {
 	launch sxhkd -c ${bspdir}/sxhkdrc &
 	launch picom --config ${bspdir}/rices/$RICETHEME/picom.conf &
 	launch /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-#	WallChanger
+	WallChanger
 	#nitrogen --restore &
 	xsetroot -cursor_name left_ptr
-	feh --bg-fill /home/infinitty/Pictures/anime-girl-mask-glowing-eyes-wallpaper-1920x1080_48.jpg	
+	#feh --bg-fill /home/infinitty/Pictures/anime-girl-mask-glowing-eyes-wallpaper-1920x1080_48.jpg	
 }
