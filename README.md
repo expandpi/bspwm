@@ -274,7 +274,7 @@ feh maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme
 
 <b>3. Cloning Dotfiles & Installing:</b>
 ```sh
-git clone --depth=1 https://github.com/expandpi/bspwm.git
+git clone --depth=1 https://github.com/expandpi/dotfiles.git
 
 # ⚠️ Backuupp!! your filess!!!
 [ -e ~/.config/bspwm ] && mv ~/.config/bspwm ~/.config/bspwm-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
